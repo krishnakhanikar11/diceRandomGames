@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lobster', cursive;
+}
+
+.main{
+    height: 100vh;
+    background-color: #393E46;
+    
+}
+
+.heading h1{
+    color: #4ECCA3;
+    font-size: 8rem;
+    text-shadow: 5px 0 #232931;
+    margin: 3rem;
+}
+
+.img p{
+    color: #4ECCA3;
+    font-size: 3rem;
+    text-shadow: 5px 0 #232931;
+    margin: 1rem;
+
+}
+
+
+
+@media screen and (max-width: 470px){
+    .heading h1{
+        color: #4ECCA3;
+        font-size: 6rem;
+        text-shadow: 5px 0 #232931;
+        margin: 3rem;
+    }
+
+    .main{
+        height: auto;
+    }
+}
